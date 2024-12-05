@@ -168,6 +168,12 @@ footer a {
 }
 
 @media (max-width: 768px) {
+
+    .links a,
+    p {
+        font-size: .875rem;
+    }
+
     .main-content {
         display: flex;
         flex-direction: column;
@@ -182,7 +188,7 @@ footer a {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-content: center;
+        align-items: center;
         gap: 1rem;
     }
 
